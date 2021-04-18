@@ -145,3 +145,54 @@ body{
 	background: #18cfab;
 	margin-top: 5px;
 }
+.option{
+	display: flex;
+}
+.option div{
+	width: 25em;
+	height: 13em;
+	display: flex;
+	flex-direction: column;
+}
+.option img{
+	position: relative;
+	top: 1em;
+}
+.option h1{
+	font-size: 20px;
+	font-weight: 700;
+	position: relative;
+	top: 2em;
+}
+.option #first{
+	padding-top: 3em;
+	background:#1C2A33;
+	align-items: center;
+	color:#18cfab;
+	border-top: 7px solid #18cfab;
+	text-align: center;
+}
+.option #second{
+	padding-top: 3em;
+	background: #18cfab;
+	color: #fff;
+	text-align: center;
+	align-items: center;
+	border-top: 7px solid #fff;
+}
+.option #third{
+	padding-top: 3em;
+	background:#1C2A33;
+	align-items: center;
+	color:#18cfab;
+	border-top: 7px solid #18cfab;
+	text-align: center;
+}
+.option #fourth{
+	padding-top: 3em;
+	background: #18cfab;
+	color: #fff;
+	text-align: center;
+	align-items: center;
+	border-top: 7px solid #fff;
+}
