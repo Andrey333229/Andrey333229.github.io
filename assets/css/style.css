@@ -27,8 +27,8 @@ body{
 	font-weight: 700;
 	color: #fff;
 	position: relative;
-	left: -44px;
-	top: 3px;
+	left: -45px;
+	top: 2px;
 }
 .logo h2{
 	position: relative;
@@ -147,6 +147,7 @@ body{
 }
 .option{
 	display: flex;
+	align-items: stretch;
 }
 .option div{
 	width: 25em;
@@ -192,7 +193,7 @@ body{
 	padding-top: 3em;
 	background: #18cfab;
 	color: #fff;
-	text-align: center;
 	align-items: center;
+	text-align: center;
 	border-top: 7px solid #fff;
 }
