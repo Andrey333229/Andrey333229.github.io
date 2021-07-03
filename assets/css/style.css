@@ -27,8 +27,8 @@ body{
 	font-weight: 700;
 	color: #fff;
 	position: relative;
-	left: -45px;
-	top: 2px;
+	left: -43px;
+	top: 1.5px;
 }
 .logo h2{
 	position: relative;
@@ -157,6 +157,7 @@ body{
 }
 .option img{
 	position: relative;
+	height: 5em;
 	top: 1em;
 }
 .option h1{
@@ -196,4 +197,72 @@ body{
 	align-items: center;
 	text-align: center;
 	border-top: 7px solid #fff;
+}
+.wrapper__full{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2em;
+	justify-content: space-between;
+}
+.wrapper__title{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3em;
+}
+.wrapper__title h1{
+	font-size: 36px;
+	font-weight: 400;
+	color: #4e4e4e;
+}
+.double-underline{
+	position: relative;
+	top: 3em;
+	right: 16em;
+}
+.underline#N2{
+	position: relative;
+	left: 1em;
+}
+.underline hr{
+	background: #18cfba;
+	height: 1px;
+	width: 3.75em;
+	margin-bottom: 3px;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	margin-top: 2em;
+}
+.title__wrapper{
+	display: flex;
+	height: 3em;
+}
+.title__wrapper h3{
+	font-weight: 700;
+	margin-left: 1em;
+	position: relative;
+	top: 0.25em;
+	color: #717171;
+}
+.title__wrapper-hover h3{
+	font-weight: 700;
+	margin-left: 1em;
+	color: #18cfab;
+}
+.wrapper section{
+	height: 143px;
+	width: 16.7em;
+	margin-bottom: 2em;
+	margin-right: 1.75em;
+	margin-left: 1.75em;
+}
+.wrapper section p{
+	font-size: 14px;
+	font-weight: 300;
+	text-align: justify;
+	margin-right: 1em;
 }
