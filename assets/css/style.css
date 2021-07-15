@@ -219,16 +219,19 @@ body{
 	position: relative;
 	top: 3em;
 	right: 16em;
+	border: none;
 }
 .underline#N2{
 	position: relative;
 	left: 1em;
 }
 .underline hr{
-	background: #18cfba;
+	background-color: #18cfba;
 	height: 1px;
 	width: 3.75em;
 	margin-bottom: 3px;
+	border: none;
+	color: #18cfba;
 }
 
 .wrapper{
@@ -265,4 +268,122 @@ body{
 	font-weight: 300;
 	text-align: justify;
 	margin-right: 1em;
+}
+.AOC{
+	background: #000;
+	height: 30em;
+	width: 100%;
+	display: flex;
+	padding-top: 90px;
+}
+.AOC__left{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.GrayImg{
+}
+.GrayLine{
+	background: #b3b3b3;
+}
+.AOC__right{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.AOC__title{
+	height: 75px;
+	width: 30em;
+	color: #fff;
+	display: flex;
+	text-align: center;
+}
+.AOC__title h1{
+	font-size: 36px;
+	font-weight: 500;
+	position: relative;
+	width: 100%;
+}
+.double-underline#N2{
+	position: relative;
+	top: 4em;
+}
+.history__title{
+	display: flex;
+	justify-content: space-between;
+	width: 20em;
+	height: 5em;
+	align-items: center;
+	position: relative;
+	top: 1em;
+	right: 2em;
+	width: 24em;
+}
+.history__title h2{
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 8px;
+}
+.history__title h2:hover{
+	border-top: 2px solid #18cfab;
+	color: #18cfab;
+}
+.skills{
+	margin-top: 3em;
+	margin-left: 2em;
+	width: 28em;
+	height: 15em;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.bar{
+	height: 2em;
+	display: flex;
+	align-items: center;
+	border-radius: 4px;
+	border: 1px solid #959595;
+}
+.bar hr{
+	position: absolute;
+	border: none;
+	height: 2em;
+	z-index: 1;
+}
+.bar h3{
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-left: 1em;
+	z-index: 2;
+}
+.bar#N1 hr{
+	background: #9c5da5;
+	color: #9c5da5;
+	width: 23em;
+}
+.bar#N2 hr{
+	background: #11b0de;
+	color: #11b0de;
+	width: 25.5em;
+}
+.bar#N3 hr{
+	width: 21em;
+	background: #d67f7f;
+	color: #d67f7f;
+}
+.bar#N4 hr{
+	width: 27em;
+	color: #20bc9d;
+	background: #20bc9d;
+}
+.bar#N5	hr{
+	width: 25.5em;
+	color: #bb8a36;
+	background: #BB8A36;
 }
